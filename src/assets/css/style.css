@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&family=Playpen+Sans&family=Roboto&family=Tienne&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section {
+    height: 90vh;
+    background-image: url(/src/assets/img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header .logo img {
+    width: 14rem;
+}
+
+header .navbar ul {
+    display: inline-flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box {
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.main-box h4 {
+    color: rgb(245,245,245);
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Tienne', serif;
+    margin: 0;
+}
+
+.main-box h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.main-content .main-box a {
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;
+    background-color: rgb(254,209,54);
+    padding: 20px;
+}
+
+.contact-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-contact-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fst-text h3 {
+    color: rgb(254,209,54);
+}
+
+.fst-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.last-text {
+    margin-top: 20%;
+}
+
+.last-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.last-text .botao {
+    margin-top: 50px;
+}
+
+.last-text .botao a {
+    color: white;
+    font-weight: 700;
+    background-color: rgb(254,209,54);
+    padding: 20px;
+    
+}
+
+.people-section {
+    background-color: rgb(245,245,245);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.people-main-text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.people-main-text h3 {
+
+}
+
+.people-main-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.apps-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-main-text {
+    text-align: center;
+}
+
+.apps-section .app-main-text h3 {
+    color: rgb(254,209,54);
+}
+
+.app-main-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.apps-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-box-1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.app-box-1 p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.cellphone-section {
+    background-color: rgb(245,245,245);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cellphone-text {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.cellphone-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.mini-contact {
+    background-color: rgb(255,255,255);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-contact-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mini-contact-text h3 {
+    color: rgb(254,209,54);
+}
+
+.mini-contact-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.form-section {
+    background-image: url(/src/assets/img/bg-footer.jpg);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(255,255,255);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 14rem;
+}
